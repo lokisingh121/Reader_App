@@ -1,0 +1,53 @@
+# Android/IntelliJ related files
+*.iml
+*.hprof
+.idea/
+.cache/
+.gradle/
+.local/
+.mvn/
+build/
+captures/
+output.json
+
+# Gradle related files
+.gradle/
+build/
+gradle-app.setting
+gradle-wrapper.properties
+gradlew
+gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+
+# Firebase/Google Services
+google-services.json
+app/google-services.json
+app/src/*/google-services.json
+*.keystore
+*.jks
+
+# Dependency caches
+.cxx/
+.externalNativeBuild/
+*.lock
+dependency-reduced-pom.xml
+node_modules/
+.yarn/
+.pnp.cjs
+.pnp.loader.mjs
+
+# Log and crash files
+*.log
+crashlytics-build.properties
+fabric/proguard-rules.pro
+
+# Generated JSON files
+app/src/main/res/values/google-services.xml
+fastlane/
+.env
+
+# Miscellaneous
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
